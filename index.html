@@ -16,66 +16,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="assets/css/styles.min.css" />
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-      /* Animasi untuk elemen fade-in saat muncul di layar */
-      @keyframes fadeIn {
-        0% {
-          opacity: 0;
-          transform: translateY(20px);
-        }
-        100% {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-
-      /* Transisi dan animasi hover untuk tombol */
-      .btn {
-        transition: all 0.3s ease-in-out;
-      }
-
-      .btn:hover {
-        transform: scale(1.05);
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-      }
-
-      /* Efek zoom pada gambar saat di-hover */
-      .card-img-top {
-        transition: transform 0.3s ease-in-out;
-      }
-
-      .card:hover .card-img-top {
-        transform: scale(1.1);
-      }
-
-      /* Transisi halus pada elemen */
-      .fade-in {
-        animation: fadeIn 0.8s ease-in-out;
-      }
-
-      /* Gaya tambahan untuk ikon dan elemen lain */
-      .bs-icon-lg {
-        font-size: 2.5rem;
-        transition: transform 0.3s;
-      }
-
-      .bs-icon-lg:hover {
-        transform: rotate(360deg);
-      }
-
-      /* Hover efek untuk kartu */
-      .card {
-        transition: transform 0.3s, box-shadow 0.3s;
-      }
-
-      .card:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-      }
-    </style>
   </head>
 
   <body>
@@ -96,7 +36,10 @@
             <p class="my-3">
               Kenyamanan dan Keamanan Tempat Tinggal yang Terjangkau untuk Anda
             </p>
-            <a class="btn btn-primary btn-lg me-2" role="button" href="#kamar-tersedia"
+            <a
+              class="btn btn-primary btn-lg me-2"
+              role="button"
+              href="#kamar-tersedia"
               >Explore</a
             >
           </div>
